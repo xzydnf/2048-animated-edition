@@ -1,6 +1,6 @@
 import React from "react";
 
-const Tile = ({ tile }) => {
+const Tile = ({ tile, id }) => {
   let classArray = ["tile"];
   classArray.push("tile" + tile.value);
   if (!tile.mergedInto) {

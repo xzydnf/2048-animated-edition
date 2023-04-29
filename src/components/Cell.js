@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cell = () => {
+const Cell = ({ id }) => {
   return <div className="cell"></div>;
 };
 
